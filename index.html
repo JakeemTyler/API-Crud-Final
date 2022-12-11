@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brewery API Final Exam</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="final.js"></script>
+    <link rel="stylesheet" type="text/css" href="final.css" />
+    
+  </head>
+  <body>
+ <div id="h1">
+    <h1>Welcome to finding your new favorite brewery!</h1> </div>
+    <br>
+    <br>
+    <div id="header"> <img src="images/brewery.jpeg" alt="header"> </div>
+
+    <div id="h2">
+ <h2>Welcome to finding your next brewery visit! Just click on the name of the brewery you see below in the list and find more information about the brewery! </h2>
+  </div>
+
+     <br>
+     <br>
+
+    <div id="wrapper">
+    <div class="lists"> 
+    </div>
+    </div>
+
+    <div id="lists">
+      <div class="button">
+      <div id = "updates"> 
+<br>
+<br>
+
+<label for="brewery_name">Name:</label>
+<input type="text" id="brewery_name"> 
+
+ <label for="brewery_city">City:</label>
+<input type="text" id="brewery_city">
+
+ <label for="brewery_state" >State:</label>
+<input type="text" id="brewery_state">
+
+ <label for="brewery_address">Address:</label>
+<input type="text" id="brewery_address">
+</div>
+
+<div id = "buttons">
+<br>
+<button type="button" id="update_record" style="display: inline-block;">Update Record</button>
+<button type="button" id = "add_brewery" style="display: inline-block;">Add Record</button>
+<button type="button" id="delete_brewery">Delete Record</button> 
+
+</div>
+    
+<div class="popup">
+    <div class="popup-content">
+      <h2>Bottoms Up! You've selected a new brewery!</h2>
+      <p id="name"></p>
+      <p id="city"></p>
+      <a class="closeBtn" href="javascript:void(0)">x</a>
+  </div>
+  </div>
+  </div>
+
+    <br>
+    <br>
+
+    <div id="footer"> </div>
+  </body>
+</html>

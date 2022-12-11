@@ -1,0 +1,131 @@
+#header{
+    margin-top: -40px;
+    width: 100%;
+    height: 800px;
+    padding-bottom: 5px;
+}
+#header img{
+    width: 100%;
+    height: 100%;
+
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%, 50%;
+    background-color: rgb(48, 49, 51);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    background-color: #d4af37;
+}
+
+h2{
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d4af37;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px;
+}
+
+    .lists {
+      float: left;
+      margin-top: 10px;
+      width: 100%;
+      height: 500px;
+      /* background-color: rgb(209, 145, 77); */
+      font-size: xx-large;
+}
+
+    #image {
+        padding-left:400px;
+        margin-top: 100px;
+        width: 100px;
+        height: 10px;
+    }
+
+#wrapper{
+    border: 5px solid  rgb(151, 96, 0);
+    background-color:  rgb(230, 236, 246);
+    width: 100%; 
+    height: 500px;
+    background-image: url(images/brew.jpeg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top: 1px;
+    padding-left: 22px;
+    padding-bottom: 1px; 
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+.popup {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      background: rgba(0, 0, 0, 0.58);
+      width: 100%;
+      height: 100%;
+      display: none;
+      text-align: left;   
+}
+
+/* Popup inner div */
+  .popup-content {
+    color: #fff;
+    font-size: larger;
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 100px;
+    border-radius: 3px;
+    background: #fff;
+    position: relative;
+    border: 3px solid #d4af37;
+    background-color: rgb(55, 55, 55);
+  }
+
+  .popup-content h2 {
+       margin-top: 0;
+  }
+
+  button {
+    background-color: #d4af37;
+      color: rgb(0, 0, 0);
+      border: 2px solid rgb(255, 251, 244);
+      height: 25px;
+      width: 150px;
+      font-weight: bold;
+  font-size: large;}
+
+ /* Popup close button */ 
+  .closeBtn {
+      position: absolute;
+      top: 5px;
+      right: 12px;
+      font-size: 17px;
+      color: #d4af37;
+      text-decoration: none;
+  }
+
+  #updates, #buttons {
+    display: inline-block;
+    color: #d4af37;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+#footer{
+    border: 8px solid  rgb(176, 132, 0);
+    width: 100%; 
+    height: 250px;
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
